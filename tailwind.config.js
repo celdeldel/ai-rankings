@@ -2,10 +2,10 @@
 module.exports = {
   content: [
     './pages/**/*.{js,jsx}',
-    './src/components/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
   ],
   theme: {
     extend: {},
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [],
 }
